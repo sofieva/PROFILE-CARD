@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f4f4f4;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.profile-card {
+  background: rgb(243, 240, 240);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(11, 11, 11, 0.2);
+  text-align: center;
+  width: 500px;
+}
+
+.profile-card:hover {
+  box-shadow: 5px 5px 35px 10px rgba(105, 199, 184, 0.352);
+}
+.profile-pic {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+.name {
+  font-size: 22px;
+  font-weight: bold;
+}
+.job {
+  font-size: 18px;
+  color: #a93e6e;
+}
+.bio {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #414141;
+
+  
+}
+.location,
+.email {
+  font-size: 14px;
+  color: #555;
+}
+.socials a {
+  margin: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  
+}
+.socials a:hover {
+  color: #e4abc5;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #3c3d3d;
+  padding-top: 5%;
+  min-width: 50%;
+  border-top: solid #e4abc571;
+}
+
+.icon {
+  background-color: rgb(65, 134, 132);
+  color: white;
+  border-radius: 70px;
+  margin: 1%;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  size: 50px;
+}
+
